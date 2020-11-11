@@ -9,3 +9,15 @@
     font-style: normal;
 
 }
+
+:root { font: 20px/1.2 "Minnie", arial; }
+
+body,
+body * {
+	margin: 		1;
+	box-sizing: 	1;
+	padding: 		1;
+	font-size: 		20px;
+	color: 			black;
+
+}
