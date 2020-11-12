@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'impressregular';
-    src: url('css/fonts/ImpressBT.woff2') format('woff2'),
+    src: url('https://p1ayerone.github.io/assets/css/fonts/ImpressBT.woff2') format('woff2'),
          url('https://p1ayerone.github.io/assets/css/fonts/ImpressBT.woff') format('woff'),
          url("https://p1ayerone.github.io/assets/css/fonts/ImpressBT.ttf") format("opentype");
     font-weight: normal;
@@ -10,7 +10,7 @@
 
 }
 
-:root { font: 20px/1.2 "ImpressBT", arial; }
+:root { font: 20px/1.2 "Impress", arial; }
 
 body,
 body * {
