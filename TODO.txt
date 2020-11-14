@@ -2,3 +2,5 @@
 2. Make a better background for the website that doesn't look like it's from the early 2000s
 3. Make an About page where I tell people what my website is about, who I am, and what my games are about.
 4. Add secrets to the website and don't tell anybody about them until somebody figures it out.
+5. Make a better background image
+6. Make better buttons for navigating the website
