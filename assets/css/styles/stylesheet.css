@@ -38,3 +38,7 @@ p {
             font-weight:normal;
             font-style:normal;
 }
+
+footer {
+    display: block;
+}
