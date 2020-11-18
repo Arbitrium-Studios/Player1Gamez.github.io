@@ -10,19 +10,14 @@
 
 :root { font: 20px/1.2 "Impress BT", arial; }
 
-body,
-body * {
-	margin: 		1;
-	box-sizing: 	1;
-	padding: 		1;
-	font-size: 		20px;
-
-}
-
 body {
             
-            background:url(../../img/bg/bg.jpg) fixed center;
-            background-image: url(../../img/bg/bg.jpg);
+
+            margin:         1;
+            box-sizing:     1;
+            padding:        1;
+            font-size:      20px;
+            background: url(../../img/bg/bg.jpg) fixed center;
             background-attachment: fixed;
             background-position: center;
             background-size: cover;
@@ -30,12 +25,8 @@ body {
             height: auto;
             min-width: 100%;
             min-height: 100%;
-            color: White;
+            color: #FEC5E5;
             font-family: 'Impress BT', Arial, sans-serif;
             font-weight:normal;
             font-style:normal;
-}
-
-footer {
-    display: block;
 }
