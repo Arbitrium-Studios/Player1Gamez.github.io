@@ -7,6 +7,39 @@
     font-display: swap;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.img-banner {
+    display: none;    
+}
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-family: 'Impress BT';
+    font-size: 50px;
+    color: #FEC5E5;
+    line-height: 44px;
+}
+
+
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: 'Impress BT';
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+}
 
 :root { font: 20px/1.2 "Impress BT", arial; }
 
@@ -25,8 +58,21 @@ body {
             height: auto;
             min-width: 100%;
             min-height: 100%;
-            color: #FEC5E5;
             font-family: 'Impress BT', Arial, sans-serif;
             font-weight:normal;
             font-style:normal;
+}
+
+.Zachary {
+    color: #FEC5E5;
+    text-decoration: none;
+}
+
+.CbTG{
+    color: #9370db;
+    text-shadow:
+    -1px -1px 0 silver,
+    1px -1px 0 silver,
+    -1px 1px 0 silver,
+    -1px 1px 0 silver;
 }
