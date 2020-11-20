@@ -2,6 +2,7 @@ RewriteEngine on
 
 ErrorDocument 404 /404.html
 
+Options +FollowSymLinks
 # mod_rewrite starts here
 
 
