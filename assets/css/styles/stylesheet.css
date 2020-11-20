@@ -29,7 +29,7 @@
     padding: 30px 30px 20px;
     font-family: 'Impress BT';
     font-size: 50px;
-    color: #FEC5E5;
+    color: #C8A2C8;
     line-height: 44px;
 }
 
@@ -37,7 +37,7 @@
     padding: 30px 30px 20px;
     font-family: 'Impress BT';
     font-size: 50px;
-    color: #FEC5E5;
+    color: #C8A2C8;
     line-height: 44px;
 }
 
@@ -45,7 +45,7 @@
     padding: 0px 30px 20px;
     font-family: 'Impress BT';
     font-size: 16px;
-    color: #FEC5E5;
+    color: #C8A2C8;
     line-height: 24px;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .Zachary {
-    color: #FEC5E5;
+    color: #C8A2C8;
     text-decoration: none;
 }
 
@@ -148,4 +148,16 @@ body {
     1px -1px 0 silver,
     -1px 1px 0 silver,
     -1px 1px 0 silver;
+}
+
+.deat {
+    color: #C8A2C8
+}
+
+.news-content {
+    color: #C8A2C8
+}
+
+body {
+    color: #C8A2C8;
 }
