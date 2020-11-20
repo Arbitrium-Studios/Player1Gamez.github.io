@@ -1,9 +1,4 @@
-Options +FollowSymLinks -Multiviews
-
-
-RewriteRule (.+\.html)$ Errors/404.html [L]
-
-ErrorDocument 404 Errors/404.html
+ErrorDocument 404 /Errors/404.html
 
 # mod_rewrite starts here
 
