@@ -1,7 +1,7 @@
 # mod_rewrite starts here
 
 RewriteEngine on
-
+Options +FollowSymLinks
 
 ErrorDocument 404 https://www.player1universe.com/errors/404.html
 
