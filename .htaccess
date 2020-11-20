@@ -1,10 +1,7 @@
 Options +FollowSymLinks -Multiviews
 
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-s
-RewriteRule (.+\.html)$ /Errors/$1 [L]
+RewriteRule (.+\.html)$ Errors/404.html [L]
 
 ErrorDocument 404 Errors/404.html
 
