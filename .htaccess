@@ -1,3 +1,11 @@
+Options +FollowSymLinks -Multiviews
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule (.+\.html)$ /Errors/$1 [L]
+
 ErrorDocument 404 Errors/404.html
 
 # mod_rewrite starts here
@@ -5,7 +13,7 @@ ErrorDocument 404 Errors/404.html
 RewriteEngine on
 
 # does not apply to existing directories, meaning that if the folder exists on the server then don't change anything and don't run the Rule!
-
+  
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # Check for file in directory with .html extension
