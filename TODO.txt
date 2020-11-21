@@ -4,3 +4,5 @@
 4. Add secrets to the website and don't tell anybody about them until somebody figures it out.
 5. Make a better background image
 6. Make better buttons for navigating the website
+7. Add an account system using MongoDB
+8. Add an API server to host the launcher and maybe even the game server on
