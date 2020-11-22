@@ -131,6 +131,7 @@ body {
             height: auto;
             min-width: 100%;
             min-height: 100%;
+            color: #C8A2C8;
             font-family: 'Impress BT', Arial, sans-serif;
             font-weight:normal;
             font-style:normal;
@@ -153,8 +154,4 @@ body {
 
 .news-content {
     color: #C8A2C8
-}
-
-body {
-    color: #C8A2C8;
 }
