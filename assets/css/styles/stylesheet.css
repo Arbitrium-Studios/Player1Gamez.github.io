@@ -155,3 +155,16 @@ body {
 .news-content {
     color: #C8A2C8
 }
+
+.gf {
+    display: block;
+    border-style: none;
+    color: white;
+}
+
+.silver-box {
+    background-color: silver;
+    color: black;
+    height: 1400px;
+    width: 640px;
+}
