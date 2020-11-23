@@ -168,3 +168,11 @@ body {
     height: 1400px;
     width: 640px;
 }
+
+.Discord {
+    float: left;
+}
+
+.Counter {
+    float: left;
+}
