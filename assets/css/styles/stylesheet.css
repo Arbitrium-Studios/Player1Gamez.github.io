@@ -142,9 +142,9 @@ body {
 }
 
 .CbTG{
-    color: #9370db;
-    text-shadow:
-    -1px -1px 0 silver;
+    color: #FEC5E5;
+    font-family: 'Impress BT';
+    font-size: 30px;
 }
 
 .deat {
@@ -195,4 +195,44 @@ body {
     color: white;
     vertical-align: left;
     float: left;
+}
+
+.footer {
+    background-color: #1F2E4B;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    float: center;
+    font-family: arial;
+}
+
+.twitter-footer {
+    color: white;
+}
+
+.gmail-footer {
+    color: white
+}
+
+.links-footer {
+    background-color: #1F2E4B;
+    color: white;
+}
+
+.contact-me {
+    background-color: #1F2E4B;
+    color: white;
+}
+
+.body-block {
+    background-color: #1F2E4B;
+    color: white;
+}
+
+.img-TBG {
+    background-color: white;
+    color: black;
+    float: left;
+    width: 300px;
+    height: 500px;
 }
