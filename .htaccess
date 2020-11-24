@@ -1,6 +1,10 @@
 # mod_rewrite starts here
 
 RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%
+{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 Options +FollowSymLinks
 
 ErrorDocument 404 404.html

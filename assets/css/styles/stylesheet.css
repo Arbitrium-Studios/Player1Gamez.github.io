@@ -112,7 +112,6 @@
         width: 50%;
         margin: 0 auto;
     }
-}
 
 :root { font: 20px/1.2 "Impress BT", arial; }
 
@@ -174,5 +173,26 @@ body {
 }
 
 .Counter {
+    float: left;
+}
+
+.nav-block {
+    background-color: #1F2E4B;
+    width: 1920px;
+    height: 40px;
+}
+
+.nav-links {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    vertical-align: left;
+    float: left;
+    font-family: arial;
+}
+
+.nav-icon {
+    color: white;
+    vertical-align: left;
     float: left;
 }
