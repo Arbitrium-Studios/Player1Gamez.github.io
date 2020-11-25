@@ -292,3 +292,8 @@ header h1{
         padding-bottom: 20px;
     }
 }
+
+.uc {
+    width: auto;
+    height: auto;
+}
