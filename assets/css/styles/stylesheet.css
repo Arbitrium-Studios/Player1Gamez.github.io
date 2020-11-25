@@ -123,7 +123,7 @@ body {
             box-sizing:     1;
             padding:        1;
             font-size:      20px;
-            background: url('https://www.player1universe.com//assets/img/bg/bg.svg') fixed center;
+            background: url(../../img/bg/bg.png) fixed center;
             background-attachment: fixed;
             background-position: center;
             background-size: cover;
@@ -258,36 +258,36 @@ header h1{
     font-size: 60px;
 }
 
-.Counters {
+.counters {
     background: #0F479A;
     color: white;
     padding: 40px 20px;
     border-top: 3px lightskyblue solid;
 }
 
-.Counters .container {
+.counters .container {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
 }
 
-.Counters i {
+.counters i {
     color: #1F2E4B;
     margin-bottom: 5px;
 }
 
-.Counters .counter {
+.counters .counter {
     font-size: 45px;
     margin: 10px 0;
 }
 
 @media(max-width: 700px) {
-    .Counters .container {
+    .counters .container {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .Counters .container > div:nth-type(1),.Counters .container > div:nth-type(2) {
+    .counters .container > div:nth-type(1),.Counters .container > div:nth-type(2) {
         border-bottom: 1px lightskyblue solid;
         padding-bottom: 20px;
     }
