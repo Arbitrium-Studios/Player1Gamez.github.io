@@ -1,0 +1,328 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  --background: rgba(54, 57, 63, .85);
+}
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../../img/bg/bg.png) fixed center;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+
+.content {
+  height: 200vh;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+/* navigation styles start here */
+
+header {
+  z-index: 999;
+  width: 100%;
+  right: 0%;
+  top: 0%;
+  position: fixed;
+}
+
+.logo {
+  margin: 0;
+  color: #F7F4E8;
+  list-style: none;
+}
+
+/*.img-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}*/
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  margin-top: 3.5%;
+}
+
+.nav-toggle-label span, 
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background: var(--background);
+  padding-bottom: 1.2%;
+}
+
+.nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-main {
+  float: right;
+  list-style: none;
+  margin-bottom: -15px;
+  padding-bottom: -15px;
+}
+
+.nav-main-item {
+  display: inline-block;
+  width: 12rem;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-main a {
+  text-align: center;
+  padding: 1rem;
+  color: #eee;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-main-item a:hover {
+  background-color: gray;
+}
+
+.nav-main-item:hover > * {
+  opacity: 1;
+  margin: 0;
+  }
+
+.navi-main-item {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  z-index: -1;
+  background: var(--background);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 800px) {
+
+.nav-toggle-label {
+  display: none;
+}
+
+header {
+  z-index: 999;
+  width: 100%;
+  right: 0%;
+  top: 0%;
+  position: fixed;
+}
+
+.logo {
+  margin: 0;
+  color: #F7F4E8;
+  list-style: none;
+  padding-top: 15;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background: var(--background);
+}
+
+.nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-main {
+  float: right;
+  list-style: none;
+}
+
+.nav-main-item {
+  display: inline-block;
+  width: 12rem;
+  position: relative;
+}
+
+.nav-main a {
+  text-align: center;
+  padding: 1rem;
+  color: #eee;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-main-item a:hover {
+  background-color: gray;
+}
+
+.nav-main-item:hover > * {
+  opacity: 1;
+  margin: 0;
+  }
+
+.navi-main-item {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  z-index: -1;
+  background: var(--background);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+  }
+    
+  .Discord {
+      float: right;
+   }
+   
+   .gif-Destiny {
+       width: 200px;
+       float: right;
+       color: white;
+       }
+       
+   .Zachary {
+       color: white;
+       text-decoration: none;
+   }
+     
+  .introduction {
+    color: white;
+  }
+
+.footer {
+    background-color: #1F2E4B;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    float: center;
+  }
+
+.CbZD{
+    color: #00FFFF;
+    font-size: 30px;
+  }
+}
+
+.Discord {
+  float: right;
+}
+
+.img-Destiny {
+   padding-top: 0px;
+   width: 300px;
+   float: right;
+   color: white;
+   }
+   
+.Zachary {
+   color: white;
+   text-decoration: none;
+}
+
+.introduction {
+   color: white;
+}
+
+.footer {
+   background-color: #1F2E4B;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   float: center;
+}
+
+.CbZD{
+   color: #00FFFF;
+   font-size: 30px;
+}
+
+/* Videos */
+
+.tse {
+  color: #07FC1B;
+  text-align: center;
+}
+
+/* Characters */
+
+.img-TBG {
+  background-color: white;
+  color: black;
+  float: left;
+  width: 300px;
+  height: 500px;
+}
+
+/* Applications */
+
+.silver-box {
+  background-color: silver;
+  color: black;
+  height: 1400px;
+  width: 640px;
+}
+
+/* About Me */
+
+.abtme {
+  width: 50%;
+  margin: 0 auto;
+}
