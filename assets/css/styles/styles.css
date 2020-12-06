@@ -62,8 +62,16 @@ p {
 }
 
 .shadow {
-  color: #07FC1B;
+  color: white;
   text-shadow: 2px 2px black;
+}
+
+.msg {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .logo {
@@ -368,7 +376,7 @@ header {
 }
 
 a .channel-links { 
-  color: #07FC1B;
+  color: white;
   text-shadow: 2px 2px black;
 }
 
