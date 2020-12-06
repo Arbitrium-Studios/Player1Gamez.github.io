@@ -363,13 +363,13 @@ header {
 
 /* Videos */
 
-.tse {
-  color: #07FC1B;
+.channel-links {
   text-align: center;
 }
 
-.channel-links {
-  text-align: center;
+a .channel-links { 
+  color: #07FC1B;
+  text-shadow: 2px 2px black;
 }
 
 /* Characters */
