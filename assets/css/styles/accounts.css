@@ -159,21 +159,21 @@ header {
   .nav-main-item a:hover {
     background-color: gray;
   }
-  
-  .nav-main-item:hover > * {
-    opacity: 1;
+
+  .nav-main-item:hover > .navi-main-item {
+    display: inline-block;
     margin: 0;
-    }
-  
-  .navi-main-item {
-    opacity: 0;
+}
+
+.navi-main-item {
+    display: none;
     position: absolute;
     width: 100%;
     top: 100%;
     z-index: -1;
     background: var(--background);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
-  }
+}
   
   .more-main-item {
     opacity: 0;
@@ -256,20 +256,20 @@ header {
       background-color: silver;
     }
     
-    .nav-main-item:hover > * {
-      opacity: 1;
+    .nav-main-item:hover > .navi-main-item {
+      display: inline-block;
       margin: 0;
-      }
-    
-    .navi-main-item {
-      opacity: 0;
+ }
+
+.navi-main-item {
+      display: none;
       position: absolute;
       width: 100%;
       top: 100%;
       z-index: -1;
       background: var(--background);
       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
-      }
+  }
 }
 
 .body-block {
