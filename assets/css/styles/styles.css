@@ -58,6 +58,11 @@ header {
   display: none;
 }
 
+.abt-zd {
+  color: white;
+  text-decoration: none;
+}
+
 .nav-toggle-label {
   position: absolute;
   top: 0;
@@ -127,7 +132,7 @@ li {
 .nav-main a {
   text-align: center;
   padding: 1rem;
-  color: #eee;
+  color: white;
   text-decoration: none;
   display: block;
 }
