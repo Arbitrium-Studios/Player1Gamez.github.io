@@ -41,6 +41,21 @@
   place-items: center;
 }
 
+h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
 /* navigation styles start here */
   
 header {

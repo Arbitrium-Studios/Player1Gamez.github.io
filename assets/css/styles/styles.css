@@ -42,6 +42,30 @@ header {
   position: fixed;
 }
 
+hr {
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.shadow {
+  color: #07FC1B;
+  text-shadow: 2px 2px black;
+}
+
 .logo {
   margin: 0;
   color: silver;
@@ -341,6 +365,10 @@ header {
 
 .tse {
   color: #07FC1B;
+  text-align: center;
+}
+
+.channel-links {
   text-align: center;
 }
 
