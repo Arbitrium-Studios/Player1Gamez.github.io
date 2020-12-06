@@ -2,6 +2,9 @@
 
 RewriteEngine on
 
+ErrorDocument 400 /errors/400.html
+ErrorDocument 401 /errors/401.html
+ErrorDocument 403 /errors/403.html
 ErrorDocument 404 /errors/404.html
 
 # does not apply to existing directories, meaning that if the folder exists on the server then don't change anything and don't run the Rule!

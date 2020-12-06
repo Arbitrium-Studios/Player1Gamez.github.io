@@ -255,10 +255,11 @@ header {
   background: var(--background);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
   }
-    
-  .Discord {
-      float: right;
-   }
+
+.Discord {
+  padding-left: 72%;
+  margin-bottom: 80px;
+}
    
    .gif-Destiny {
        width: 200px;
@@ -267,12 +268,14 @@ header {
        }
        
    .Zachary {
-       color: black;
+       color: white;
        text-decoration: none;
+       text-shadow: 2px 2px black;
    }
      
   .introduction {
-    color: black;
+    color: white;
+    text-shadow: 2px 2px black;
   }
 
 .footer {
@@ -281,7 +284,7 @@ header {
     text-align: center;
     font-size: 20px;
     float: center;
-    margin-top: 100%;
+    margin-top: 12.5%;
   }
 
 .CbZD{
@@ -291,7 +294,8 @@ header {
 }
 
 .Discord {
-  float: right;
+  padding-left: 72%;
+  margin-bottom: 80px;
 }
 
 .img-Destiny {
@@ -302,12 +306,14 @@ header {
    }
    
 .Zachary {
-   color: black;
+   color: white;
    text-decoration: none;
+   text-shadow: 2px 2px black;
 }
 
 .introduction {
-   color: black;
+   color: white;
+   text-shadow: 2px 2px black;
 }
 
 .footer {
